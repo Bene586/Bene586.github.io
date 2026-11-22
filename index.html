@@ -1,3 +1,121 @@
-<h1>Bonjour, je suis Bénédicte</h1>
-<p>Bienvenue sur mon portfolio.</p>
-<p>Étudiante en informatique à l'ENI Toliara.</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bénédicte Désirée Rasoanandrasana – Portfolio</title>
+<meta name="description" content="Étudiante en 2ème année d’informatique générale à l’ENI Toliara, à la recherche d’un stage en développement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <nav aria-label="Navigation principale">
+      <a href="#competences">Compétences</a>
+      <a href="#experience">Expérience</a>
+      <a href="#projets">Projets</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" type="button" aria-pressed="false">Mode sombre</button>
+    </nav>
+
+    <div class="hero">
+      <div>
+      <h1>
+        <span class="prenom">Bénédicte</span>
+        <span>Rasoanandrasana</span>
+      </h1>
+      <p class="accroche">Étudiante en 2ème année d’informatique générale à l’ENI Toliara. Je cherche un stage en développement pour mettre mes compétences en pratique et apprendre en conditions professionnelles.</p>
+      <a class="bouton" href="#contact">Me contacter</a>
+      </div>
+      <img class="photo" src="photo.jpg" alt="Portrait de Bénédicte Rasoanandrasana" width="600" height="600">
+    </div>
+  </header>
+
+  <main>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <div>
+        <ul class="competences">
+          <li>HTML / CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>SQLite</li>
+          <li class="autre">Informatique bureautique</li>
+          <li class="autre">Gestion de classe</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Expérience</h2>
+      <ul class="liste">
+        <li>
+          <span class="titre">Professeur d’informatique bureautique</span>
+          <span class="detail">Collège La Source, Toliara</span>
+          <span class="detail">Enseignement de la bureautique du collège au lycée, organisation des travaux pratiques et théoriques, participation aux programmes académiques.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets réalisés</h2>
+      <ul class="liste">
+        <li><span class="titre">Gestion de la caisse d’une église</span></li>
+        <li><span class="titre">Gestion d’une station-service</span></li>
+        <li><span class="titre">Gestion d’un parking automobile</span></li>
+      </ul>
+    </section>
+
+    <section id="formation">
+      <h2>Formation</h2>
+      <ul class="liste">
+        <li>
+          <span class="titre">Licence 2, informatique générale</span>
+          <span class="detail">ENI Toliara, depuis janvier 2026</span>
+        </li>
+        <li>
+          <span class="titre">Licence 1</span>
+          <span class="detail">ENI Toliara, 2024 – 2025</span>
+        </li>
+        <li>
+          <span class="titre">Certification en informatique bureautique</span>
+          <span class="detail">ASMIL Toliara, 2020</span>
+        </li>
+        <li>
+          <span class="titre">Baccalauréat série D, mention assez bien</span>
+          <span class="detail">Institution Père Barré, Toliara, 2020</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="langues">
+      <h2>Langues</h2>
+      <ul class="liste">
+        <li><span class="titre">Malagasy</span><span class="detail">Langue maternelle</span></li>
+        <li><span class="titre">Français</span><span class="detail">Courant, à l’oral et à l’écrit</span></li>
+        <li><span class="titre">Anglais</span><span class="detail">Niveau intermédiaire</span></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div>
+        <p>Je suis disponible pour un stage en développement informatique. Écrivez-moi, je réponds volontiers.</p>
+        <p><a href="mailto:benedictedesiree2024@gmail.com" id="adresse">benedictedesiree2024@gmail.com</a></p>
+        <p><button id="copier" type="button">Copier l’adresse</button><span id="etat" role="status"></span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>Bénédicte Désirée Rasoanandrasana, Toliara, Madagascar</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
