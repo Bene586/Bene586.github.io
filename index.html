@@ -7,7 +7,7 @@
 <meta name="description" content="Étudiante en 2ème année d’informatique générale à l’ENI Toliara, à la recherche d’un stage en développement.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600&family=Great+Vibes&family=Jost:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,10 +26,11 @@
     <div class="hero">
       <div>
       <h1>
-        <span class="prenom">Bénédicte Désirée</span>
-        <span>Rasoanandrasana</span>
+        <span class="prenom">Bénédicte</span>
+        <span class="nom">Rasoanandrasana</span>
       </h1>
-      <p class="accroche">Actuellement, je suis une Étudiante en 3ème année d’informatique générale à l’ENI Toliara. Je cherche un stage ou un petit boulot à temps partiel en développement pour mettre mes compétences en pratique et apprendre en conditions professionnelles.</p>
+        <p class="signature">Portfolio</p>
+      <p class="accroche">Étudiante en 2ème année d’informatique générale à l’ENI Toliara. Je cherche un stage en développement pour mettre mes compétences en pratique et apprendre en conditions professionnelles.</p>
       <a class="bouton" href="#contact">Me contacter</a>
       </div>
       <img class="photo" src="photo.jpg" alt="Portrait de Bénédicte Rasoanandrasana" width="600" height="600">
@@ -45,9 +46,10 @@
           <li>HTML / CSS</li>
           <li>JavaScript</li>
           <li>Java</li>
-          <li>PHP</li>
           <li>C#</li>
+          <li>PHP</li>
           <li>MySQL</li>
+          <li>SQLite</li>
           <li class="autre">Informatique bureautique</li>
           <li class="autre">Gestion de classe</li>
         </ul>
@@ -65,25 +67,24 @@
       </ul>
     </section>
 
-    <section id="projets">
+    <section id="projets" class="bande">
       <h2>Projets réalisés</h2>
       <ul class="liste">
         <li>
-  <span class="titre">Gestion de la caisse d’une église</span>
-  <span class="detail">Application qui suit l’argent qui entre et qui sort de la caisse d’une église. Pour chaque recette (quête ou autre), le comptable enregistre le nom de l’église, son adresse, la date, l’heure et la nature de la recette. Pour chaque dépense, il indique le motif (achat de bougies, de matériel…), la date et l’heure. L’application effectue les calculs du budget. Conçu et programmé seule.</span>
-
-<span class="detail">Réalisé avec PHP, MySQL, HTML et CSS (outils : VS Code et XAMPP). Le tableau de bord affiche le total des entrées, le total des sorties et le solde actuel de la caisse.</span>
-
-</li>
+          <span class="titre">Gestion de la caisse d’une église</span>
+          <span class="detail">Application qui suit l’argent qui entre et qui sort de la caisse d’une église. Pour chaque recette (quête ou autre), le comptable enregistre le nom de l’église, son adresse, la date, l’heure et la nature de la recette. Pour chaque dépense, il indique le motif (achat de bougies, de matériel…), la date et l’heure. L’application effectue les calculs du budget. Conçu et programmé seule.</span>
+          <span class="detail">Réalisé avec PHP, MySQL, HTML et CSS (outils : VS Code et XAMPP). Le tableau de bord affiche le total des entrées, le total des sorties et le solde actuel de la caisse.</span>
+        </li>
         <li>
-  <span class="titre">Gestion d’une station-service</span>
-  <span class="detail">Application qui suit les ventes de carburants (gasoil, essence, pétrole). Elle enregistre les entrées de stock, affiche le stock disponible et envoie une alerte quand le stock passe sous 50 litres. Elle comprend un tableau de bord.</span>
-  <span class="detail">Réalisé en Java avec MySQL (outil : NetBeans). Conçu et programmé seule.</span>
-</li>
+          <span class="titre">Gestion d’une station-service</span>
+          <span class="detail">Application qui suit les ventes de carburants (gasoil, essence, pétrole). Elle enregistre les entrées de stock, affiche le stock disponible et envoie une alerte quand le stock passe sous 50 litres. Elle comprend un tableau de bord.</span>
+          <span class="detail">Réalisé en Java avec MySQL (outil : NetBeans). Conçu et programmé seule.</span>
+        </li>
         <li>
-  <span class="titre">Gestion d’un parking automobile</span>
-  <span class="detail">Application de réservation de places de parking. Elle détecte les places déjà prises et les places libres, et enregistre la date et l’heure d’entrée et de sortie de chaque voiture. Le prix est fixé sous forme d’abonnement mensuel. Un parking VIP est aussi prévu.</span>
-</li>
+          <span class="titre">Gestion d’un parking automobile</span>
+          <span class="detail">Application de réservation de places de parking. Elle détecte les places déjà prises et les places libres, et enregistre la date et l’heure d’entrée et de sortie de chaque voiture. Le prix est fixé sous forme d’abonnement mensuel. Un parking VIP est aussi prévu.</span>
+          <span class="detail">Réalisé en C# avec MySQL (via XAMPP). Il comprend un tableau de bord.</span>
+        </li>
       </ul>
     </section>
 
@@ -123,7 +124,7 @@
       <div>
         <p>Je suis disponible pour un stage en développement informatique. Écrivez-moi, je réponds volontiers.</p>
         <p><a href="mailto:benedictedesiree2024@gmail.com" id="adresse">benedictedesiree2024@gmail.com</a></p>
-<p><a href="tel:+261329595151">032 95 951 51</a></p>
+        <p><a href="tel:+261329595151">032 95 951 51</a></p>
         <p><button id="copier" type="button">Copier l’adresse</button><span id="etat" role="status"></span></p>
       </div>
     </section>
