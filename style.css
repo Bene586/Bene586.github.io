@@ -131,6 +131,7 @@ footer {
   transform: translateY(0);
   box-shadow: none;
 }
+.bouton { margin: 0 0.6rem 0.6rem 0; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .bouton, #theme, #copier { transition: none; }
